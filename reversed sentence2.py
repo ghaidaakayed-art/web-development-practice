@@ -1,0 +1,6 @@
+text=input("Enter a titel: ")
+formatted_titel=text.title()
+words=formatted_titel.split()
+hashtag="#"+"".join(words)
+print("Formatted titel: ", formatted_titel)
+print("Generated Hashtag: #",hashtag)
